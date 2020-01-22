@@ -26,9 +26,9 @@ cd /tmp
 
 if [ `getconf LONG_BIT` = "64" ]
 then
-    wget -O rarlinux.tar.gz http://www.rarlab.com/rar/rarlinux-x64-5.5.0.tar.gz
+    wget -O rarlinux.tar.gz https://www.rarlab.com/rar/rarlinux-x64-5.8.0.tar.gz
 else
-    wget -O rarlinux.tar.gz http://www.rarlab.com/rar/rarlinux-5.5.0.tar.gz
+    wget -O rarlinux.tar.gz https://www.rarlab.com/rar/rarlinux-5.8.0.tar.gz
 fi
 
 tar -xzvf rarlinux.tar.gz
